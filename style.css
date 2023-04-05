@@ -1,3 +1,6 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 .container {
     background-color: #2F1134;
     margin: auto;
@@ -14,6 +17,7 @@
     color: #FEC124;
     font-weight: 600;
     padding-bottom: 0.8rem;
+    font-size: 1.6rem;
 }
 .header-subtitle {
     color: #E8F2EE;
@@ -25,4 +29,18 @@
 .third-line {
     color: #E8F2EE;
     padding-bottom: 1.5rem;
+}
+.flex-container {
+    background-color: #4B1854;
+    border-radius: 6px;
+    width: 94%;
+    margin: auto;
+    box-shadow: 1px 3px 8px 1px rgba(0,0,0,0.2);
+}
+.flex-title {
+    color: #FFFFFD;
+    text-align: center;
+    padding-top: 0.5rem;
+    font-size: larger;
+    font-weight: 400;
 }
